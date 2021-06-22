@@ -1,7 +1,26 @@
+const apiService = require('../services/apiService');
+
 module.exports = {
-    ping: (req, res) =>{
-        res.json({pong: true});
-    }
+    login: ()=>{
+
+    },
+    todos: ()=>{
+
+    },
+    one: ()=>{
+        
+    },
+    novo: ()=>{
+        
+    },
+    altera: ()=>{
+        
+    },
+    deleta: ()=>{
+        
+    },
+    
+    
 };
 
 

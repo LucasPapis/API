@@ -8,5 +8,5 @@ server.use(cors());
 server.use(bodyParser.urlencoded({extended: false}));
 server.use('/api',routes);
 server.listen(process.env.PORT, ()=>{
-    console.log(`deu certo, dodando na porta:${process.env.PORT}`);
+    console.log(`deu certo, rodando na porta:${process.env.PORT}`);
 });

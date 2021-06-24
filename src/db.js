@@ -9,3 +9,5 @@ connection.connect((error)=>{
     if(error) throw error;
     console.log(`Conectado com sucesso ao Banco de dados:  ${process.env.DB_NAME}`);
 });
+
+module.exports = connection;
